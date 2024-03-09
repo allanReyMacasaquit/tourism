@@ -1,5 +1,6 @@
 import aboutImg from '../images/about.jpeg';
 import Title from './Title';
+import { aboutlinks } from './data';
 const About = () => {
 	return (
 		<section className='section' id='about'>
@@ -10,20 +11,16 @@ const About = () => {
 					<img src={aboutImg} className='about-photo' alt='awesome beach' />
 				</div>
 				<article className='about-info'>
-					<h3>explore the difference</h3>
-					<p>
-						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
-						quisquam harum nam cumque temporibus explicabo dolorum sapiente odio
-						unde dolor?
-					</p>
-					<p>
-						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
-						quisquam harum nam cumque temporibus explicabo dolorum sapiente odio
-						unde dolor?
-					</p>
-					<a href='/' className='btn'>
-						read more
-					</a>
+					{aboutlinks.map(({ id, title, text1, text2, href }) => (
+						<div key={id}>
+							<h3>{title}</h3>
+							<p>{text1}</p>
+							<p>{text2}</p>
+							<a href={href} className='btn'>
+								read more
+							</a>
+						</div>
+					))}
 				</article>
 			</div>
 		</section>

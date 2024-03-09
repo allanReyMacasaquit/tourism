@@ -119,3 +119,15 @@ export const toursLinks = [
 		cost: 2100,
 	},
 ];
+
+export const aboutlinks = [
+	{
+		id: 1,
+		href: '#about',
+		title: 'explore the difference',
+		text1:
+			'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatuquisquam harum nam cumque temporibus explicabo dolorum sapiente odi',
+		text2:
+			'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatuquisquam harum nam cumque temporibus explicabo dolorum sapiente odi',
+	},
+];
