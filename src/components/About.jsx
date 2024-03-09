@@ -11,13 +11,13 @@ const About = () => {
 					<img src={aboutImg} className='about-photo' alt='awesome beach' />
 				</div>
 				<article className='about-info'>
-					{aboutlinks.map(({ id, title, text1, text2, href }) => (
+					{aboutlinks.map(({ id, title, text1, text2, href, btnText }) => (
 						<div key={id}>
 							<h3>{title}</h3>
 							<p>{text1}</p>
 							<p>{text2}</p>
 							<a href={href} className='btn'>
-								read more
+								{btnText}
 							</a>
 						</div>
 					))}

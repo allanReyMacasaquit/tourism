@@ -129,5 +129,16 @@ export const aboutlinks = [
 			'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatuquisquam harum nam cumque temporibus explicabo dolorum sapiente odi',
 		text2:
 			'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatuquisquam harum nam cumque temporibus explicabo dolorum sapiente odi',
+
+		btnText: 'read more',
+	},
+];
+export const herolinks = [
+	{
+		id: 1,
+		href: '#tours',
+		title: 'continue exploring',
+		text: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatuquisquam harum nam cumque temporibus explicabo dolorum sapiente odi',
+		btnText: 'explore tours',
 	},
 ];
