@@ -1,3 +1,10 @@
+import tourImg1 from '../images/tour-1.jpeg';
+import tourImg2 from '../images/tour-2.jpeg';
+import tourImg3 from '../images/tour-3.jpeg';
+import tourImg4 from '../images/tour-4.jpeg';
+import tourImg5 from '../images/tour-5.jpeg';
+import tourImg6 from '../images/tour-6.jpeg';
+
 export const pageLinks = [
 	{ id: 1, href: '#home', text: 'home' },
 	{ id: 3, href: '#about', text: 'about' },
@@ -47,5 +54,68 @@ export const serviceslinks = [
 		title: 'restroom',
 		text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit Asperiores, official',
 		icon: 'fas fa-restroom fa-fw',
+	},
+];
+
+export const toursLinks = [
+	{
+		id: 1,
+		image: tourImg1,
+		date: 'august 26th 2020',
+		title: 'Tibet adventure',
+		info: 'lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumquevitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.',
+		location: 'Nepal',
+		duration: '6 hrs',
+		cost: 2100,
+	},
+	{
+		id: 2,
+		image: tourImg2,
+		date: 'august 26th 2020',
+		title: 'Tibet adventure',
+		info: 'lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumquevitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.',
+		location: 'Nepal',
+		duration: '6 hrs',
+		cost: 2100,
+	},
+	{
+		id: 3,
+		image: tourImg3,
+		date: 'august 26th 2020',
+		title: 'Tibet adventure',
+		info: 'lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumquevitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.',
+		location: 'Nepal',
+		duration: '6 hrs',
+		cost: 2100,
+	},
+	{
+		id: 4,
+		image: tourImg4,
+		date: 'august 26th 2020',
+		title: 'Tibet adventure',
+		info: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumquevitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.',
+		location: 'Nepal',
+		duration: '6 hrs',
+		cost: 2100,
+	},
+	{
+		id: 5,
+		image: tourImg5,
+		date: 'august 26th 2020',
+		title: 'Tibet adventure',
+		info: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumquevitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.',
+		location: 'Nepal',
+		duration: '6 hrs',
+		cost: 2100,
+	},
+	{
+		id: 6,
+		image: tourImg6,
+		date: 'august 26th 2020',
+		title: 'Tibet adventure',
+		info: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumquevitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.',
+		location: 'Nepal',
+		duration: '6',
+		cost: 2100,
 	},
 ];
